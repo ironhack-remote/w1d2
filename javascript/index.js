@@ -94,3 +94,69 @@ function mindsBlown(fancy) {
 }
 
 mindsBlown(log);
+console.clear();
+// ARRAYS
+
+// [undefined, null, 0, false]
+const array = [];
+console.log("array:", array);
+array.push("Weird");
+console.log("array:", array);
+array.pop();
+console.log("array:", array);
+array.unshift("This adds");
+console.log("array:", array);
+array.shift();
+console.log("array:", array);
+
+console.clear();
+
+const array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+array2.splice(4, 1);
+console.log("array2:", array2);
+array2.splice(4, 0, 5);
+console.log("array2:", array2);
+const array3 = array2.slice(2);
+console.log("array3:", array3);
+const array4 = array2.slice(4, 8);
+console.log("array4:", array4);
+const array5 = array2.splice(4);
+console.log("array5:", array5);
+
+console.clear();
+
+// for (let i = 0; i < array6.length; i++) {
+//   console.log(array6[i]);
+// }
+
+const array6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+array6.forEach(function (element) {
+  log(element, element * 2);
+});
+// array6.forEach(function (a, b, c) {
+//   log("ELEMENT", a);
+//   log("INDEX", b);
+//   log("ARRAY", c);
+// });
+
+// array6.forEach(function () {
+//   log("HEY THERE");
+// });
+
+// function forEach(element, index, array) {
+
+// }
+
+// for (let i = 0; i< array6.length; i++) {
+//    forEach(array6[i], i, array)
+// }
+
+const array7 = [];
+console.log("array7:", array7);
+
+for (let i = 1; i <= 100; i++) {
+  array7.push(i);
+}
+console.log("array7:", array7);
