@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+/* 
+margin
+padding
+borders
+
+margin: 10px; margin-top:10px;margin-right:10px;margin-bottom:10px;margin-left:10px
+
+margin: 10px 50px; margin-top and margin-bottom: 10px; margin-left and margin-right: 50px
+
+margin: 50px 10px 30px; margin-top: 50px; margin-left and margin-right: 10px; margin-bottom: 30px
+
+
+margin: 30px 2rem 50% 90cm
+*/
+
+.fancy {
+  height: 100vh;
+  background-color: orange;
+}
+
+.wrap {
+  background-color: greenyellow;
+  width: 505px;
+  margin: 0 auto;
+}
+/* 
+em
+rem
+%
+v[w/h]
+px
+ */
+
+.square {
+  height: 150px;
+  width: 150px;
+  padding: 30px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 25px solid black;
+  /* border: 80px solid black; */
+}
+
+.importantTitle {
+  color: green;
+}
+
+h1 {
+  color: rebeccapurple;
+  font-family: monospace;
+}
+
+/* 
+selector (s) {
+  property/attribute: value;
+} 
+*/
+
+h1,
+h2 {
+  color: red;
+}
